@@ -1,0 +1,85 @@
+body, html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLogin{
+    max-width: 80%;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 0 0 10px 1px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.mainLogin input{
+    color: darkgray;
+    margin-top: .2rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    padding: .6rem 1.6rem;
+    transition: 300ms;
+    border: 3px solid darkgrey;
+}
+.mainLogin h1, h2{
+    line-height: 0;
+}
+.mainLogin h1{
+    font-size: 3rem;
+    margin-top: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.mainLogin h2{
+    color: darkgrey;
+}
+.mainLogin input:focus{
+    color: #060606;
+    outline: none;
+    transition: 300ms;
+    border: 3px solid lightgreen;
+}
+
+.mainLogin label{
+    margin-top: 1rem;
+}
+
+.mainLogin button{
+    transition: 300ms;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    justify-self: end;
+    align-self: flex-end;
+    border-radius: .6rem;
+    background: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: .6rem;
+    border: none;
+}
+.mainLogin button:hover{
+    transform: scale(1.01);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.mainLogin button:focus{
+    transition: 200ms;
+    outline: none;
+    opacity: .8;
+}
+
+#heroimage{
+    height: 16rem;
+}
+
+.mainLogin button img{
+    width: 1.6rem;
+}

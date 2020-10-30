@@ -1,0 +1,10 @@
+#header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: none;
+}
+
+#header img{
+    width: 8rem;
+}
