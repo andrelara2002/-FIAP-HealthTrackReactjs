@@ -6,7 +6,7 @@ class Header extends Component{
     render(){
         return(
             <div id='header'>
-                <a href='andrelara2002.github.io'><img src={completeLogo} alt='Logo' ></img> </a>
+                <a href='https://andrelara2002.github.io/'><img src={completeLogo} alt='Logo' ></img> </a>
             </div>
         )
     }

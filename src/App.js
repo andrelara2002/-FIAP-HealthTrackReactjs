@@ -1,12 +1,10 @@
 import './App.css';
-import Login from './components/Login'
-import Header from './components/Header'
+import Routes from './routes'
 
 function App() {
     return (
         <div>
-            <Header></Header>
-            <Login></Login>
+            <Routes/>
         </div>
     );
 }

@@ -1,0 +1,16 @@
+:root{
+    --background-color: #eeeeee;
+    --Main-text-color: #000000;
+    --subtitle-color: #A6A6A6;
+    --accent-color: #63FFBF;
+    --darker-color: #24D48C;
+    --light-color: #D4D4D4;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a :hover{
+    color: black;
+    text-decoration: none;
+}
