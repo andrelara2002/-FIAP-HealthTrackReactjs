@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React, { Component } from 'react';
 import Header from '../../components/Header'
 import PassosImage from '../../images/passos-img.svg'
@@ -30,7 +29,7 @@ class Resumo extends Component {
                 <div class='card'>
                     <h1>{this.state.passos}</h1>
                     <h2>Passos</h2>
-                    <img src={PassosImage}></img>
+                    <img src={PassosImage} alt=''></img>
                 </div>
                 <div class='card'>
                     <h1>{this.state.peso}Kg</h1>

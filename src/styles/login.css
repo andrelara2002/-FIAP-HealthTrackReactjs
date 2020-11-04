@@ -9,7 +9,6 @@ html, body{
 
     justify-self: center;
     align-self: center;
-    box-shadow: 0 0 10px 1px lightgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +21,7 @@ html, body{
     border-radius: 1rem;
     padding: .6rem 1.2rem;
     transition: 300ms;
-    border: 3px solid darkgrey;
+    border: 3px solid lightgray;
 }
 .mainLogin h1, h2{
     line-height: 0;
@@ -96,5 +95,6 @@ html, body{
     }
     .mainLogin{
         max-width: 500px;
+        box-shadow: 0 0 8px 2px lightgray;
     }
 }
